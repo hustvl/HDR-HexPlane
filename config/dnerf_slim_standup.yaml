@@ -1,0 +1,38 @@
+systems:
+  basedir: "./logs"
+  # ckpt: "logs_pub/standup_hdr_noMLP-20230804-222736/standup_hdr_noMLP.th"
+  
+model:
+  N_voxel_init: 262144
+
+  # We heuristically set initial time_grid and final time grid. 
+  # A common strategy to set these two parameters for DNeRF dataset is:
+  # We empirically set time_grid_final = int(0.24 * N_frames), and time_grid_final = int(0.5 * time_grid_final)
+  # We show N_frames for each video 
+  # "standup": 150; "jumpingjacks": 200; "hook"   : 100; "bouncingballs": 150
+  # "lego"   :  50; "hellwarrior" : 100; "mutant" : 150; "trex"         : 200
+  time_grid_init: 16
+  time_grid_final: 24
+  upsampling_type: unaligned
+  upsample_list: [3000, 6000, 9000]
+  update_emptymask_list: [4000, 8000, 10000]
+  # L1_constraint: 0.5
+
+
+data:
+  datadir: "data/punch"
+
+  downsample: 2.0
+  time_scale: 1.0
+  dataset_name: "blender"
+
+optim:
+  n_iters: 20000
+render_train: False
+render_test: False
+render_path: False
+render_video: False
+draw_exp: True
+expname: standup
+
+
