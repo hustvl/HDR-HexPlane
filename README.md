@@ -1,7 +1,7 @@
 # HDR-HexPlane: Fast High Dynamic Range Radiance Fields for Dynamic Scenes
 
 ## 3DV 2024
-### [Project Page](https://guanjunwu.github.io/4dgs/index.html)| [Data](https://drive.google.com/drive/folders/1rHRb0eo38-BZj_e81U9HhQCwIdBsGaG5?usp=share_link)
+### [Project Page](https://guanjunwu.github.io/4dgs/index.html)| [Data](https://drive.google.com/drive/folders/19eTjvgw98_hYodCMegHHg5PjhNUgFVNO?usp=sharing)
 
 ---
 [Guanjun Wu](https://guanjunwu.github.io/) <sup>1*</sup>, [Taoran Yi](https://github.com/taoranyi) <sup>2*</sup>,
