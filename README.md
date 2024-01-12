@@ -54,6 +54,14 @@ python main.py config=config/dnerf_slim_airplane.yaml systems.ckpt="checkpoint/p
 # Citation
 
 Some insights about neural voxel grids and dynamic scenes reconstruction originate from [TiNeuVox](https://github.com/hustvl/TiNeuVox) and [hexplane](https://github.com/Caoang327/HexPlane). If you find this repository/work helpful in your research, welcome to cite these papers and give a ⭐.
+```
+@article{wu2023hdr-hexplane,
+  title={Fast High Dynamic Range Radiance Fields for Dynamic Scenes},
+  author={Wu, Guanjun and Yi, Taoran and Fang, Jiemin and Liu, Wenyu and Wang Xinggang},
+  journal={arXiv preprint arXiv:2401.06052},
+  year={2023}
+}
+```
 
 # Acknowledgement
 
