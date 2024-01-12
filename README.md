@@ -57,7 +57,7 @@ Some insights about neural voxel grids and dynamic scenes reconstruction origina
 ```
 @article{wu2023hdr-hexplane,
   title={Fast High Dynamic Range Radiance Fields for Dynamic Scenes},
-  author={Wu, Guanjun and Yi, Taoran and Fang, Jiemin and Liu, Wenyu and Wang Xinggang},
+  author={Wu, Guanjun and Yi, Taoran and Fang, Jiemin and Liu, Wenyu and Wang, Xinggang},
   journal={arXiv preprint arXiv:2401.06052},
   year={2023}
 }
