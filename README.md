@@ -3,7 +3,6 @@
 ## 3DV 2024
 ### [Project Page](https://guanjunwu.github.io/HDR-HexPlane/)| [Data](https://drive.google.com/drive/folders/19eTjvgw98_hYodCMegHHg5PjhNUgFVNO?usp=sharing)
 
----
 [Guanjun Wu](https://guanjunwu.github.io/) <sup>1*</sup>, [Taoran Yi](https://github.com/taoranyi) <sup>2*</sup>,
 [Jiemin Fang](https://jaminfong.cn/) <sup>2‡</sup>, [Wenyu Liu](http://eic.hust.edu.cn/professor/liuwenyu/) <sup>2</sup>, [Xinggang Wang](https://xwcv.github.io) <sup>2‡✉</sup>
 
@@ -29,7 +28,7 @@ pip install -r requirements.txt
 
 # Data Preparation
 
-**All the datsets will be available soon.**
+Please download all the data from the [link](https://drive.google.com/drive/folders/19eTjvgw98_hYodCMegHHg5PjhNUgFVNO?usp=sharing):
 
 Make the dataset format like: `dataset/lego`.
 
@@ -55,11 +54,11 @@ python main.py config=config/dnerf_slim_airplane.yaml systems.ckpt="checkpoint/p
 
 Some insights about neural voxel grids and dynamic scenes reconstruction originate from [TiNeuVox](https://github.com/hustvl/TiNeuVox) and [hexplane](https://github.com/Caoang327/HexPlane). If you find this repository/work helpful in your research, welcome to cite these papers and give a ⭐.
 ```
-@article{wu2023hdr-hexplane,
+@article{wu2024hdrhexplane,
   title={Fast High Dynamic Range Radiance Fields for Dynamic Scenes},
   author={Wu, Guanjun and Yi, Taoran and Fang, Jiemin and Liu, Wenyu and Wang, Xinggang},
-  journal={arXiv preprint arXiv:2401.06052},
-  year={2023}
+  booktitle={3DV},
+  year={2024}
 }
 ```
 
