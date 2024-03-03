@@ -314,6 +314,7 @@ class Trainer:
                 train_dataset, iteration
             )
             # Render the rgb values of rays
+            # breakpoint()
             rgb_map, alphas_map, depth_map, weights, rgbh_map, uncertainty = renderer(
                 rays_train,
                 frame_time,

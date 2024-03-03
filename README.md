@@ -37,7 +37,7 @@ Please change the "datadir" in config based on the locations of downloaded datas
 # Reconstruction
 
 ```
-python main.py config=config/dnerf_slim_airplane.yaml
+python main.py config=config/dnerf_slim_tank.yaml
 ```
 
 We provide several config files under [config](config/) folder for different datasets and models.

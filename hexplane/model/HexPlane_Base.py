@@ -566,13 +566,13 @@ class HexPlane_Base(torch.nn.Module):
             rgb[app_mask] = valid_rgbs
         if exps is None:
             exps = self.exposure_embedding(frame_idx)
-            # exps = self.exposure_linear(exps)
+            exps = self.exposure_linear(exps)
         # else:
             
-        # exps = self.compute_exposure(frame_idx).unsqueeze(-1)
-        # exps = self.exposure_linear(torch.tensor(frame_idx.unsqueeze(-1)).to(rgb.device))
+            # exps = self.compute_exposure(frame_idx).unsqueeze(-1)
+            # exps = self.exposure_linear(torch.tensor(frame_idx.unsqueeze(-1)).to(rgb.device))
         # rgb = torch.sigmoid(rgb)
-        rgb_l = self.tonemapper(rgb, exps.detach(), None)
+        rgb_l = self.tonemapper(rgb, exps, None)
         # if not self.training:
         # render_exps = self.get_hdr_render_exposures()
         # render_exp = torch.ones_like(exps) * render_exps

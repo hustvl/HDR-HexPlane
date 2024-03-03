@@ -1,6 +1,5 @@
 systems:
   basedir: "./logs"
-
 model:
   N_voxel_init: 262144
 
@@ -27,10 +26,10 @@ data:
 optim:
   n_iters: 20000
 render_train: False
-render_test: False
+render_test: True
 render_path: False
 render_video: False
 draw_exp: True
-expname: tank_hdr_full_noMLP
+expname: tank
 
 
