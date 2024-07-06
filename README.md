@@ -1,7 +1,7 @@
 # HDR-HexPlane: Fast High Dynamic Range Radiance Fields for Dynamic Scenes
 
 ## 3DV 2024
-### [Project Page](https://guanjunwu.github.io/HDR-HexPlane/) | [Data(BaiduYun)](https://pan.baidu.com/s/1vuJ5kThgRkmv9DWis9g8Pg?pwd=1234) | [Data(Google Cloud, Blender Files only)](https://drive.google.com/drive/folders/19eTjvgw98_hYodCMegHHg5PjhNUgFVNO?usp=sharing)| [Paper](https://arxiv.org/abs/2401.06052) 
+### [Project Page](https://guanjunwu.github.io/HDR-HexPlane/) | [Data(BaiduYun)](https://pan.baidu.com/s/1vuJ5kThgRkmv9DWis9g8Pg?pwd=1234) | [Data(Blender Files)](https://drive.google.com/drive/folders/19eTjvgw98_hYodCMegHHg5PjhNUgFVNO?usp=sharing)| [Data(Images)](https://huggingface.co/datasets/SmallGuanjun/HDR-HexPlane) |[Paper](https://arxiv.org/abs/2401.06052) 
 
 [Guanjun Wu](https://guanjunwu.github.io/) <sup>1*</sup>, [Taoran Yi](https://github.com/taoranyi) <sup>2*</sup>,
 [Jiemin Fang](https://jaminfong.cn/) <sup>2‡</sup>, [Wenyu Liu](http://eic.hust.edu.cn/professor/liuwenyu/) <sup>2</sup>, [Xinggang Wang](https://xwcv.github.io) <sup>2‡✉</sup>
